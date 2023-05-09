@@ -7,16 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C89157529DE9CA20061DC11 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89157429DE9CA20061DC11 /* Tests_iOS.swift */; };
-		9C89157729DE9CA20061DC11 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89157629DE9CA20061DC11 /* Tests_iOSLaunchTests.swift */; };
-		9C89158129DE9CA30061DC11 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89158029DE9CA30061DC11 /* Tests_macOS.swift */; };
-		9C89158329DE9CA30061DC11 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89158229DE9CA30061DC11 /* Tests_macOSLaunchTests.swift */; };
+		9C085CDD29E4603400EB239D /* bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C085CDC29E4603400EB239D /* bubble.mp3 */; };
+		9C085CDE29E4603400EB239D /* bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C085CDC29E4603400EB239D /* bubble.mp3 */; };
+		9C085CE029E4603800EB239D /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C085CDF29E4603800EB239D /* click.mp3 */; };
+		9C085CE129E4603800EB239D /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C085CDF29E4603800EB239D /* click.mp3 */; };
+		9C085CE629E46D1400EB239D /* BallImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C085CE529E46D1400EB239D /* BallImage.swift */; };
+		9C085CE729E46D1400EB239D /* BallImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C085CE529E46D1400EB239D /* BallImage.swift */; };
+		9C81715F29E06FFA00115A4A /* SilkScreen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C81715E29E06FFA00115A4A /* SilkScreen.ttf */; };
+		9C81716029E06FFA00115A4A /* SilkScreen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C81715E29E06FFA00115A4A /* SilkScreen.ttf */; };
+		9C81716629E0881700115A4A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716529E0881700115A4A /* SettingView.swift */; };
+		9C81716729E0881700115A4A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716529E0881700115A4A /* SettingView.swift */; };
+		9C81716929E0888500115A4A /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716829E0888500115A4A /* StartView.swift */; };
+		9C81716A29E0888500115A4A /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716829E0888500115A4A /* StartView.swift */; };
+		9C81716C29E088C800115A4A /* PerspectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716B29E088C800115A4A /* PerspectiveView.swift */; };
+		9C81716D29E088C800115A4A /* PerspectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716B29E088C800115A4A /* PerspectiveView.swift */; };
+		9C81716F29E0893300115A4A /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716E29E0893300115A4A /* EndView.swift */; };
+		9C81717029E0893300115A4A /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81716E29E0893300115A4A /* EndView.swift */; };
+		9C886E9029E5AB41008D6BF0 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E8F29E5AB41008D6BF0 /* AVPlayer.swift */; };
+		9C886E9129E5AB41008D6BF0 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E8F29E5AB41008D6BF0 /* AVPlayer.swift */; };
+		9C886E9329E5AFC4008D6BF0 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9229E5AFC4008D6BF0 /* Hole.swift */; };
+		9C886E9429E5AFC4008D6BF0 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9229E5AFC4008D6BF0 /* Hole.swift */; };
+		9C886E9629E5B1FE008D6BF0 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9529E5B1FE008D6BF0 /* TutorialView.swift */; };
+		9C886E9729E5B1FE008D6BF0 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9529E5B1FE008D6BF0 /* TutorialView.swift */; };
+		9C886E9929E5FAB1008D6BF0 /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9829E5FAB1008D6BF0 /* MotionView.swift */; };
+		9C886E9A29E5FAB1008D6BF0 /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C886E9829E5FAB1008D6BF0 /* MotionView.swift */; };
 		9C89158429DE9CA30061DC11 /* MancalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89155C29DE9CA00061DC11 /* MancalaApp.swift */; };
 		9C89158529DE9CA30061DC11 /* MancalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89155C29DE9CA00061DC11 /* MancalaApp.swift */; };
 		9C89158629DE9CA30061DC11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89155D29DE9CA00061DC11 /* ContentView.swift */; };
 		9C89158729DE9CA30061DC11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89155D29DE9CA00061DC11 /* ContentView.swift */; };
 		9C89158829DE9CA30061DC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C89155E29DE9CA20061DC11 /* Assets.xcassets */; };
 		9C89158929DE9CA30061DC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C89155E29DE9CA20061DC11 /* Assets.xcassets */; };
+		9C93158A2A0038B900E22904 /* ModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9315892A0038B900E22904 /* ModifyView.swift */; };
+		9C93158B2A0038B900E22904 /* ModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9315892A0038B900E22904 /* ModifyView.swift */; };
+		9CC6B7FA29E5A6AD006C3CD4 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6B7F929E5A6AD006C3CD4 /* Ball.swift */; };
+		9CC6B7FB29E5A6AD006C3CD4 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6B7F929E5A6AD006C3CD4 /* Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +61,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C085CDC29E4603400EB239D /* bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubble.mp3; sourceTree = "<group>"; };
+		9C085CDF29E4603800EB239D /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		9C085CE529E46D1400EB239D /* BallImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallImage.swift; sourceTree = "<group>"; };
+		9C81715E29E06FFA00115A4A /* SilkScreen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SilkScreen.ttf; sourceTree = "<group>"; };
+		9C81716129E0709700115A4A /* Mancala--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mancala--iOS--Info.plist"; sourceTree = "<group>"; };
+		9C81716529E0881700115A4A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9C81716829E0888500115A4A /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		9C81716B29E088C800115A4A /* PerspectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveView.swift; sourceTree = "<group>"; };
+		9C81716E29E0893300115A4A /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		9C886E8F29E5AB41008D6BF0 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		9C886E9229E5AFC4008D6BF0 /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		9C886E9529E5B1FE008D6BF0 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		9C886E9829E5FAB1008D6BF0 /* MotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionView.swift; sourceTree = "<group>"; };
 		9C89155C29DE9CA00061DC11 /* MancalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaApp.swift; sourceTree = "<group>"; };
 		9C89155D29DE9CA00061DC11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C89155E29DE9CA20061DC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,11 +81,9 @@
 		9C89156929DE9CA20061DC11 /* Mancala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mancala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C89156B29DE9CA20061DC11 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9C89157029DE9CA20061DC11 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C89157429DE9CA20061DC11 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		9C89157629DE9CA20061DC11 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		9C89157C29DE9CA30061DC11 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C89158029DE9CA30061DC11 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		9C89158229DE9CA30061DC11 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9C9315892A0038B900E22904 /* ModifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyView.swift; sourceTree = "<group>"; };
+		9CC6B7F929E5A6AD006C3CD4 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +118,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C085CDB29E4601200EB239D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9C085CDC29E4603400EB239D /* bubble.mp3 */,
+				9C085CDF29E4603800EB239D /* click.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		9C89155629DE9CA00061DC11 = {
 			isa = PBXGroup;
 			children = (
+				9C085CDB29E4601200EB239D /* Sound */,
+				9C81716129E0709700115A4A /* Mancala--iOS--Info.plist */,
 				9C89155B29DE9CA00061DC11 /* Shared */,
 				9C89156A29DE9CA20061DC11 /* macOS */,
-				9C89157329DE9CA20061DC11 /* Tests iOS */,
-				9C89157F29DE9CA30061DC11 /* Tests macOS */,
 				9C89156429DE9CA20061DC11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +141,21 @@
 		9C89155B29DE9CA00061DC11 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9C89155C29DE9CA00061DC11 /* MancalaApp.swift */,
-				9C89155D29DE9CA00061DC11 /* ContentView.swift */,
 				9C89155E29DE9CA20061DC11 /* Assets.xcassets */,
+				9C89155D29DE9CA00061DC11 /* ContentView.swift */,
+				9C81716529E0881700115A4A /* SettingView.swift */,
+				9C81716829E0888500115A4A /* StartView.swift */,
+				9C81716E29E0893300115A4A /* EndView.swift */,
+				9C886E9529E5B1FE008D6BF0 /* TutorialView.swift */,
+				9C886E9229E5AFC4008D6BF0 /* Hole.swift */,
+				9C085CE529E46D1400EB239D /* BallImage.swift */,
+				9CC6B7F929E5A6AD006C3CD4 /* Ball.swift */,
+				9C886E8F29E5AB41008D6BF0 /* AVPlayer.swift */,
+				9C81716B29E088C800115A4A /* PerspectiveView.swift */,
+				9C89155C29DE9CA00061DC11 /* MancalaApp.swift */,
+				9C81715E29E06FFA00115A4A /* SilkScreen.ttf */,
+				9C886E9829E5FAB1008D6BF0 /* MotionView.swift */,
+				9C9315892A0038B900E22904 /* ModifyView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -121,24 +177,6 @@
 				9C89156B29DE9CA20061DC11 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		9C89157329DE9CA20061DC11 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9C89157429DE9CA20061DC11 /* Tests_iOS.swift */,
-				9C89157629DE9CA20061DC11 /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		9C89157F29DE9CA30061DC11 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				9C89158029DE9CA30061DC11 /* Tests_macOS.swift */,
-				9C89158229DE9CA30061DC11 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C89158829DE9CA30061DC11 /* Assets.xcassets in Resources */,
+				9C085CE029E4603800EB239D /* click.mp3 in Resources */,
+				9C81715F29E06FFA00115A4A /* SilkScreen.ttf in Resources */,
+				9C085CDD29E4603400EB239D /* bubble.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C89158929DE9CA30061DC11 /* Assets.xcassets in Resources */,
+				9C085CE129E4603800EB239D /* click.mp3 in Resources */,
+				9C81716029E06FFA00115A4A /* SilkScreen.ttf in Resources */,
+				9C085CDE29E4603400EB239D /* bubble.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +343,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C085CE629E46D1400EB239D /* BallImage.swift in Sources */,
+				9C81716F29E0893300115A4A /* EndView.swift in Sources */,
+				9C93158A2A0038B900E22904 /* ModifyView.swift in Sources */,
+				9C81716629E0881700115A4A /* SettingView.swift in Sources */,
 				9C89158629DE9CA30061DC11 /* ContentView.swift in Sources */,
+				9C81716C29E088C800115A4A /* PerspectiveView.swift in Sources */,
 				9C89158429DE9CA30061DC11 /* MancalaApp.swift in Sources */,
+				9CC6B7FA29E5A6AD006C3CD4 /* Ball.swift in Sources */,
+				9C81716929E0888500115A4A /* StartView.swift in Sources */,
+				9C886E9629E5B1FE008D6BF0 /* TutorialView.swift in Sources */,
+				9C886E9029E5AB41008D6BF0 /* AVPlayer.swift in Sources */,
+				9C886E9329E5AFC4008D6BF0 /* Hole.swift in Sources */,
+				9C886E9929E5FAB1008D6BF0 /* MotionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C085CE729E46D1400EB239D /* BallImage.swift in Sources */,
+				9C81717029E0893300115A4A /* EndView.swift in Sources */,
+				9C93158B2A0038B900E22904 /* ModifyView.swift in Sources */,
+				9C81716729E0881700115A4A /* SettingView.swift in Sources */,
 				9C89158729DE9CA30061DC11 /* ContentView.swift in Sources */,
+				9C81716D29E088C800115A4A /* PerspectiveView.swift in Sources */,
 				9C89158529DE9CA30061DC11 /* MancalaApp.swift in Sources */,
+				9CC6B7FB29E5A6AD006C3CD4 /* Ball.swift in Sources */,
+				9C81716A29E0888500115A4A /* StartView.swift in Sources */,
+				9C886E9729E5B1FE008D6BF0 /* TutorialView.swift in Sources */,
+				9C886E9129E5AB41008D6BF0 /* AVPlayer.swift in Sources */,
+				9C886E9429E5AFC4008D6BF0 /* Hole.swift in Sources */,
+				9C886E9A29E5FAB1008D6BF0 /* MotionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C89157729DE9CA20061DC11 /* Tests_iOSLaunchTests.swift in Sources */,
-				9C89157529DE9CA20061DC11 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C89158329DE9CA30061DC11 /* Tests_macOSLaunchTests.swift in Sources */,
-				9C89158129DE9CA30061DC11 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,10 +525,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66LAS5YM4V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mancala--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,10 +557,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66LAS5YM4V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mancala--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,17 +1,15 @@
-//
-//  MancalaApp.swift
-//  Shared
-//
-//  Created by 楊乃諺 on 2023/4/6.
-//
-
 import SwiftUI
+import AVFoundation
 
 @main
 struct MancalaApp: App {
+    @State var backgroundIndex: Int = 0
+    @State var chessIndex: Int = 0
+    @State var p1Color: Int = 0
+    @State var p2Color: Int = 1
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView(backgroundIndex: $backgroundIndex, chessIndex: $chessIndex, p1Color: $p1Color, p2Color: $p2Color)
         }
     }
 }
